@@ -53,3 +53,14 @@ body{
 	background-color: #2FBE70;
 	border: none;
 }
+
+/* Added style on "remove-item" class */
+.remove-item:hover{
+	cursor: pointer;
+}
+#thankYouImg{
+	width: 500px;
+	margin-top: 15%;
+	margin-left: 25%;
+	display: none;
+}
