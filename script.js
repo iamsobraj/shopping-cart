@@ -110,4 +110,12 @@ function cart(){
 
      document.getElementById("total").innerText = parseFloat(document.getElementById("subtotal").innerText) + parseFloat(document.getElementById("tax").innerText);
 }
- 
+// Check Out Button //
+
+const checkOutBtn = document.getElementById("checkOutBtn");
+	  checkOutBtn.addEventListener("click", function(){
+	  const fullCartRemove = document.getElementById("fullCartRemove");
+	  fullCartRemove.style.display = "none";
+	  const showThankYouImg = document.getElementById("thankYouImg");
+	  showThankYouImg.style.display = "block"
+        })
